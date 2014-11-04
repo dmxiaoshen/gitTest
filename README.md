@@ -16,3 +16,18 @@ get git project by remote,you can get what you like,for this:
 
 ##base command  
 ###git status  
+list the information of the project
+```
+git status -s
+```  
+###git add / git commit
+```
+git add  
+git commit -m 'description content'
+```  
+###git branch  
+list branchs for current project
+```
+git branch
+```
+
