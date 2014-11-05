@@ -77,11 +77,7 @@ h6 ###### 六级标题
 效果：  
  [github][1],[开源中国][2]  
  markdown:
- ![img][3]
-
- [1]: https://github.com/ "github"  
- [2]: http://www.oschina.net/ "开源中国"  
- [3]: http://ww2.sinaimg.cn/large/5e8cb366jw1e85r40u55hj20b40b4q2x.jpg "markdown"  
+ ![img][3]  
 
 ##其他  
 ```
@@ -99,3 +95,6 @@ Hello[^hello]
 
 [^hello]: 这是一个脚注  
 
+[1]: https://github.com/ "github"  
+[2]: http://www.oschina.net/ "开源中国"  
+[3]: http://ww2.sinaimg.cn/large/5e8cb366jw1e85r40u55hj20b40b4q2x.jpg "markdown"  
