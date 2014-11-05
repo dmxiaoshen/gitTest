@@ -55,9 +55,9 @@ h6 ###### 六级标题
 `[github](https://github.com/dmxiaoshen "github")`  
 效果  [github](https://github.com/dmxiaoshen "github")  
 
-###图片：  
+###图片  
 `![img](url "title")`  
-效果  
+效果:  
 ![img](http://ww2.sinaimg.cn/large/5e8cb366jw1e85r40u55hj20b40b4q2x.jpg "markdown")  
 
 ###链式引用  
@@ -89,13 +89,8 @@ h6 ###### 六级标题
 
  [^hello]: 这是一个脚注
 
-```
-
-效果：  
-Hello[^hello]  
+``` 
 
 [1]: https://github.com/ "github"  
 [2]: http://www.oschina.net/ "开源中国"  
 [3]: http://ww2.sinaimg.cn/large/5e8cb366jw1e85r40u55hj20b40b4q2x.jpg "markdown"  
-
-[^hello]: 这是一个脚注  
