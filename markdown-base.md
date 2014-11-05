@@ -33,8 +33,8 @@ h6 ###### 六级标题
 * 有序列表  
     ```java
     1. 列表1  
-	2. 列表2  
-	3. 列表3  
+    2. 列表2  
+    3. 列表3  
     ```
     
 * 无序列表  
@@ -47,4 +47,55 @@ h6 ###### 六级标题
     ```
 
 ##链接和图片  
+###直接链接  
+`<https://github.com/dmxiaoshen>`  
+效果  <https://github.com/dmxiaoshen>
+
+###一般写法  
+`[github](https://github.com/dmxiaoshen "github")`  
+效果  [github](https://github.com/dmxiaoshen "github")  
+
+###图片：  
+`![img](url "title")`  
+效果  ![img](http://ww2.sinaimg.cn/large/5e8cb366jw1e85r40u55hj20b40b4q2x.jpg "markdown")  
+
+###链式引用  
+```
+ 链接：  
+ [文字1][1],[文字2][2]  
+
+ [1]: url "文字1"  
+ [2]: url "文字2"  
+
+ 图片:  
+ ![img][1],![img][2]  
+
+ [1]: url "title1"  
+ [2]；url "title2"  
+```
+
+效果：  
+ [github][1],[开源中国][2]  
+ markdown:
+ ![img][3]
+
+ [1]: https://github.com/ "github"  
+ [2]: http://www.oschina.net/ "开源中国"  
+ [3]: http://ww2.sinaimg.cn/large/5e8cb366jw1e85r40u55hj20b40b4q2x.jpg "markdown"  
+
+##其他  
+```
+ [toc] 显示目录
+
+ 脚注：  
+ Hello[^hello]  
+
+ [^hello]: 这是一个脚注
+
+```
+
+效果：  
+Hello[^hello]  
+
+[^hello]: 这是一个脚注  
 
