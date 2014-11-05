@@ -71,7 +71,7 @@ h6 ###### 六级标题
  ![img][1],![img][2]  
 
  [1]: url "title1"  
- [2]；url "title2"  
+ [2]: url "title2"  
 ```
 
 效果：  
